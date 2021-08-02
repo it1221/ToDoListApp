@@ -5,7 +5,7 @@ Prepare Java environment is not so easy.
 
 So I use docker and develop java.
 
-When you'd like to writing java code, you can do that in this workspace!
+When you'd like to write java code, you can do that in this workspace!
 
 If you don't know how to use and run java document file, you read here documents.
 
@@ -16,12 +16,18 @@ Have good development!
 # How to use 
 .
 
-## First, you need to boot docker container.
+## First, you need to boot docker engine.
+Open the Docker Desktop, and start docker engine.
+
+Then,
+
+```
+$ cd workspace
+```
 
 ```
 workspace $ docker-compose up -d
 ```
-  at Java/workspace directory in command line.
 
 .
 
@@ -38,7 +44,7 @@ $ javac filename1.java
 ```
  and run file with run 
 ```
-$ java filename1
+$ java filename1.java
 ```
 
 You can both of compile and run in Console.
@@ -47,7 +53,7 @@ You can both of compile and run in Console.
 # When you make java document file 
 
 
-## You can make java document file `under the src directory` in the server directory.
+## You can make java document file in `server/src` directory.
 .
 
 Make `"filename2.java"` and compile, then `"filename2.class"` is created automatically.
